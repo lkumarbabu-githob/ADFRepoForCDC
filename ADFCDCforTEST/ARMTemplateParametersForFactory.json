@@ -1,0 +1,69 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADFCDCforTEST"
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"SqlServer2_password": {
+			"value": ""
+		},
+		"SqlServer3_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase2_password": {
+			"value": ""
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "adfcdcserver.database.windows.net"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "adfcdcdb"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "adfcdc"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "adfcdcserver.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "adfcdcdb"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "adfcdc"
+		},
+		"SqlServer2_properties_typeProperties_server": {
+			"value": "adfcdcserver.database.windows.net"
+		},
+		"SqlServer2_properties_typeProperties_database": {
+			"value": "adfcdcdb"
+		},
+		"SqlServer2_properties_typeProperties_userName": {
+			"value": "adfcdc"
+		},
+		"SqlServer3_properties_typeProperties_server": {
+			"value": "adfcdcserver.database.windows.net"
+		},
+		"SqlServer3_properties_typeProperties_database": {
+			"value": "adfcdcdb"
+		},
+		"SqlServer3_properties_typeProperties_userName": {
+			"value": "adfcdc"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_server": {
+			"value": "sqlschoolonlineserver1.database.windows.net"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_database": {
+			"value": "sqlcdcdatabase"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_userName": {
+			"value": "sqlserveradmin"
+		}
+	}
+}
