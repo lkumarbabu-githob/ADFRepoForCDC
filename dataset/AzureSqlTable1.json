@@ -1,0 +1,72 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "__$start_lsn",
+				"type": "binary"
+			},
+			{
+				"name": "__$end_lsn",
+				"type": "binary"
+			},
+			{
+				"name": "__$seqval",
+				"type": "binary"
+			},
+			{
+				"name": "__$operation",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "__$update_mask",
+				"type": "varbinary"
+			},
+			{
+				"name": "ProductID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ProductName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CALENDAR YEAR 1",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "CALENDAR YEAR 2",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "CALENDAR YEAR 3",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "CALENDAR YEAR 4",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "__$command_id",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "cdc",
+			"table": "DBO_OLTP_PRODUCT_TABLE_CT"
+		}
+	}
+}
