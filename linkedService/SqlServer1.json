@@ -5,13 +5,13 @@
 		"annotations": [],
 		"type": "SqlServer",
 		"typeProperties": {
-			"server": "sqlschoolonlineserver1.database.windows.net",
-			"database": "adfsqlserverdb",
+			"server": "adfcdcserver.database.windows.net",
+			"database": "adfcdcdb",
 			"encrypt": "mandatory",
 			"trustServerCertificate": true,
 			"authenticationType": "SQL",
-			"userName": "sqlserveradmin",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDYyMDkzOUJDLTk4NzAtNDgxRS1CMzc2LUYyQTRBQUI1OUQyQ18xMjZiNjQwNy0wNDlkLTQwOTAtYTdlZS04NjI2NWE3NjhmYTgiDQp9"
+			"userName": "adfcdc",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDYyMDkzOUJDLTk4NzAtNDgxRS1CMzc2LUYyQTRBQUI1OUQyQ18zM2RiODQ3OS04ZTc3LTRlYWEtYmY3Mi0xZDY1NTQ0ZWVhOTAiDQp9"
 		}
 	}
 }
