@@ -1,0 +1,17 @@
+{
+	"name": "AzureSqlDatabase2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "sqlschoolonlineserver1.database.windows.net",
+			"database": "sqlcdcdatabase",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "sqlserveradmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDYyMDkzOUJDLTk4NzAtNDgxRS1CMzc2LUYyQTRBQUI1OUQyQ18xOTI4NTc4ZS02ZDM2LTQ2MjQtODQ3Yi0yNTE5NmQ0ZmQyMmEiDQp9"
+		}
+	}
+}
