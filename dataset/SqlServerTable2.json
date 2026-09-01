@@ -7,6 +7,10 @@
 		},
 		"annotations": [],
 		"type": "SqlServerTable",
-		"schema": []
+		"schema": [],
+		"typeProperties": {
+			"schema": "cdc",
+			"table": "DBO_OLTP_PRODUCT_TABLE_CT"
+		}
 	}
 }
