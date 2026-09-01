@@ -9,8 +9,8 @@
 		"type": "SqlServerTable",
 		"schema": [],
 		"typeProperties": {
-			"schema": "cdc",
-			"table": "DBO_OLTP_PRODUCT_TABLE_CT"
+			"schema": "dbo",
+			"table": "OLTP_PRODUCT_TABLE"
 		}
 	}
 }
